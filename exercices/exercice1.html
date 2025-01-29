@@ -1,5 +1,148 @@
-Exercice 5
+<!--Exercice 5
 
 Consignes :
 
-- Réaliser l'implémentation statique de l'interface
+- Réaliser l'implémentation statique de l'interface-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ex1</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+  <style>
+    .message {
+        display : flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-bottom : 2px solid black;
+        padding : 10px;
+    }
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 0;
+    }
+    header {
+        display : flex;
+        flex : 0 0;
+        flex-direction: row;
+        font-weight: bold;
+        background-color: silver;
+        padding : 20px;
+        box-sizing: border-box;
+    }
+    footer {
+        display : flex;
+        flex : 0 0;
+        flex-direction: row;
+        font-weight: bold;
+        background-color: silver;
+        padding : 20px;
+        box-sizing: border-box;
+    }
+    .page_message {
+        flex : 1 1;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <form>
+            <label for="post_message">User :</label>
+            <input type="text" id="post_message">
+        </form>
+    </header>
+    <div class="page_message">
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+        <div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div><div class="message">
+            <div>Author</div>
+            <div>Message</div>
+        </div>
+    </div>
+    <footer>
+        <form>
+            <label for="post_message">Message :</label>
+            <input type="text" id="post_message">
+        </form>
+    </footer>
+</body>
+</html>
